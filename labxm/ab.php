@@ -37,7 +37,7 @@
 				$rs = 'No';
 				if($display)
 				{
-					$rs = "yes"
+					$rs = "yes";
 				}
 				$row = "\r\n".$name.",".$bprice.",".$sprice.",".$rs;
 				fwrite($file,$row);
